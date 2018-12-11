@@ -57,7 +57,7 @@ public class Main {
             }
         }
 
-        System.out.println("Best accuracy: " + listOfAccuracy[indexOfMax] + " --> with threshold : " + thresholdvalues[indexOfMax]);
+        System.out.println("Best accuracy: " + listOfAccuracy[indexOfMax] + ", Errorrate: " + (1-listOfAccuracy[indexOfMax]) +  " --> with threshold : " + thresholdvalues[indexOfMax]);
     }
 
     private static int eval(double theshold, dataPair data){
