@@ -30,16 +30,20 @@ public class Main {
                 y.setPredictedYEval(eval(threshold, y));
 
                 if(y.getPredictedYEval() == 1 && y.getAcctualY() == y.getPredictedYEval()){
+                    // TP
                     confusionMatrix[0][0] +=1;
                 }
                 if(y.getPredictedYEval() == 0 && y.getAcctualY() == y.getPredictedYEval()){
+                    // TN
                     confusionMatrix[1][1] += 1;
                 }
                 if(y.getPredictedYEval() == 1 && y.getAcctualY() != y.getPredictedYEval()){
+                    // FP
                     confusionMatrix[1][0] += 1;
                 }
                 if(y.getPredictedYEval() == 0 && y.getAcctualY() != y.getPredictedYEval()){
-                    confusionMatrix[1][0] += 1;
+                    // FN
+                    confusionMatrix[0][1] += 1;
                 }
             }
             calAccuracy(x, confusionMatrix) ;
