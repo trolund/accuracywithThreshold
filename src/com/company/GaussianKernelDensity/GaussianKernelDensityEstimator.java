@@ -2,11 +2,11 @@ package com.company.GaussianKernelDensity;
 
 public class GaussianKernelDensityEstimator {
 
-    private static double[] dist = {4.39, 3.62, 4.53, 3.83, 4.36, 4.14, 4.06, 4.31};
+    private static double[] dist = {5.11, 4.79, 4.90, 4.74, 2.96, 5.16, 2.88};
 
-    private static double M = 6;
+    private static double M = 7;
     private static double variance = 1;
-    private static double N = 8;
+    private static double N = dist.length;
 
     public static void main(String[] args) {
 
