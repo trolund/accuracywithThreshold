@@ -16,7 +16,15 @@ public class impurityGain {
         rootNode.getChildren().add(nodeclass2);
 
         Tree tree = new Tree(rootNode);
-        
+
+
+
+
+    }
+
+
+    private void algo(){
+
 
 
 

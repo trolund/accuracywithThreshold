@@ -7,7 +7,7 @@ public class Tree<T> {
 
     public Tree(T rootData) {
         root = new Node<T>();
-        root.data = rootData;
+        root.data = new ArrayList<Double>();
         root.children = new ArrayList<Node<T>>();
     }
 
@@ -20,11 +20,11 @@ public class Tree<T> {
     }
 
     public static class Node<T> {
-        private T data;
+        private ArrayList<Double> data;
         private Node<T> parent;
         private ArrayList<Node<T>> children = new  ArrayList();
 
-        public Node(T data, Node<T> parent, ArrayList<Node<T>> children) {
+        public Node(ArrayList<Double> data, Node<T> parent, ArrayList<Node<T>> children) {
             this.data = data;
             this.parent = parent;
             this.children = children;
@@ -36,11 +36,11 @@ public class Tree<T> {
             this.children = children;
         }
 
-        public T getData() {
+        public ArrayList<Double> getData() {
             return data;
         }
 
-        public void setData(T data) {
+        public void setData(ArrayList<Double> data) {
             this.data = data;
         }
 
