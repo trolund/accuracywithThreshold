@@ -6,7 +6,7 @@ public class GaussianKernelDensityEstimator {
 
     private static double M = 6;
     private static double variance = 1;
-    private static double N = 8;
+    private static double N = dist.length;
 
     public static void main(String[] args) {
 
