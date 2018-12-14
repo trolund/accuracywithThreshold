@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.List;
+package com.company.ImpurityMeasturesAndPurityGain;
 
 public class impurityGain {
 

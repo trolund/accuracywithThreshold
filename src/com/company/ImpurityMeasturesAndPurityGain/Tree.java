@@ -1,7 +1,6 @@
-package com.company;
+package com.company.ImpurityMeasturesAndPurityGain;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Tree<T> {
     private Node<T> root;

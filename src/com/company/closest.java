@@ -10,8 +10,6 @@ public class closest {
 
     private static ArrayList<ArrayList<Object>> clustre = new ArrayList<>();
 
-
-
     public static void main(String[] args) {
 
         for (Double cluster: clustrevalues) {
