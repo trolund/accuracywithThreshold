@@ -22,4 +22,12 @@ public class impurityGain {
 
     }
 
+
+    private void algo(){
+
+
+
+
+    }
+
 }
